@@ -122,14 +122,12 @@ header {
 
 .contacts_title {
     margin-top: 53px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 32px;
     line-height: 39px;
     text-align: center;
-    top: 80px;
-
     color: #090274;
 }
 
@@ -164,25 +162,21 @@ header {
 .contacts_leftpart_title {
     text-align: center;
     margin-top: 10%;
-
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 34px;
-
     color: #ffffff;
 }
 
 .contacts_info {
     margin-left: 5%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 28px;
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -192,46 +186,35 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 100px;
+    gap: 34px;
 }
 
 .contacts_number {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 13px;
+    gap: 12px;
 }
-/*проблема: не  изменяется расстояние между иконками*/
-.contacs_messenger {
+
+.contacts_messengers {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    gap: 30px;
-
-    width: 171px;
-    height: 36px;
+    gap: 20px;
 }
 
 .contacts_phone_mail {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-
     color: #ffffff;
 }
 
 .contacts_rightpart {
     width: 909px;
     height: 609px;
-    right: 0px;
-    top: 0px;
-
     background: #201c58;
     border-radius: 80px;
 }
@@ -242,43 +225,51 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 85px;
+    gap: 110px;
 }
 
 .twosegmentblock {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 309px;
 }
 
-.twosegment p {
-    font-family: "Montserrat";
+.twosegment input {
+    font-family: "Montserrat",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 8px 0;
+    background-color:#201c58;
+    border-bottom: 1px solid #ffffff;
 }
-
-.line1 {
+.twosegment input:focus{
+    outline: none;
+} 
+/* .line1 {
     width: 218px;
     border: 0.5px solid #ffffff;
-}
+} */
 
-.onesegment p {
+.onesegment input {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    border: none;
+    padding: 8px 0;
+    background-color:#201c58;
     color: rgba(255, 255, 255, 0.5);
+    width: 700px;
+    border-bottom: 1px solid #ffffff;
 }
-
-.line2 {
-    width: 745px;
-    border: 0.5px solid #ffffff;
+.onesegment input:focus{
+    outline: none;
 }
 
 .sendbutton {
@@ -286,26 +277,18 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 70px;
+    padding: 18px 95px;
     gap: 10px;
-
-    width: 239px;
-    height: 55px;
-
     background: #ffffff;
     border-radius: 80px;
-}
-
-.sendbutton span {
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
     text-align: center;
-
     color: #090274;
+    cursor: pointer;
 }
 
 footer {

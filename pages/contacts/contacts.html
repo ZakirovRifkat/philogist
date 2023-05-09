@@ -66,7 +66,7 @@
 
         <section class="contacts">
             <div class="contacts_title">
-                <h2>Контакты</h2>
+                <div>Контакты</div>
             </div>
             <div class="contacts_main">
                 <div class="contacts_leftpart">
@@ -117,42 +117,42 @@
                     </div>
                 </div>
 
-                <div class="contacts_rightpart">
+                <form class="contacts_rightpart">
                     <div class="contacts_rightpart_main">
                         <div class="twosegmentblock">
                             <div class="twosegment">
-                                <p>Имя</p>
-                                <hr class="line1" />
+                                <input type="text" placeholder="Имя" />
                             </div>
 
                             <div class="twosegment">
-                                <p>Фамилия</p>
-                                <hr class="line1" />
+                                <input type="text" placeholder="Фамилия" />
                             </div>
                         </div>
 
                         <div class="twosegmentblock">
                             <div class="twosegment">
-                                <p>Номер телефона</p>
-                                <hr class="line1" />
+                                <input
+                                    type="tel"
+                                    placeholder="Номер телефона"
+                                />
                             </div>
 
                             <div class="twosegment">
-                                <p>E-mail</p>
-                                <hr class="line1" />
+                                <input type="email" placeholder="E-mail" />
                             </div>
                         </div>
 
                         <div class="onesegment">
-                            <p>Ваше сообщение</p>
-                            <hr class="line2" />
+                            <input placeholder="Ваше сообщение" />
                         </div>
 
-                        <figure class="sendbutton">
-                            <span>Отправить</span>
-                        </figure>
+                        <input
+                            type="submit"
+                            class="sendbutton"
+                            placeholder="Отправить"
+                        />
                     </div>
-                </div>
+                </form>
             </div>
         </section>
 
