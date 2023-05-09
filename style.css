@@ -1,14 +1,11 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 a {
     text-decoration: none;
-}
-
-h1 {
-    color: white;
 }
 
 header {
@@ -29,6 +26,9 @@ header {
     width: 380px;
     margin: auto;
 }
+.head_text_link{
+    margin-top: 28px;
+}
 .logo_block {
     display: flex;
     justify-content: center;
@@ -36,17 +36,18 @@ header {
 }
 
 .head_feedback_link {
+
     display: flex;
     align-items: center;
     width: 310px;
 }
 
 .head_text {
-    margin-top: 28px;
-    margin-bottom: 0;
+
     white-space: nowrap;
     font-size: 36px;
     text-align: center;
+    color: white;
 }
 
 .head_text span {
@@ -91,8 +92,8 @@ header {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     width: 40vw;
-    box-sizing: content-box;
 }
 
 .menu a {
@@ -111,7 +112,9 @@ header {
 }
 
 .about {
-    background-color: #d9d9d9;
+    background-image: url(assets/icons/about_back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,15 +122,12 @@ header {
 }
 
 .about_title {
-    margin-top: 53px;
-    font-family: "Inter";
+    margin-top: 85px;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 39px;
-    text-align: center;
-    top: 80px;
-
+    font-size: 36px;
+    line-height: 38px;
     color: #090274;
 }
 
@@ -150,16 +150,13 @@ header {
 
 .about_rightpart {
     width: 50%;
-
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    /* or 125% */
-
     text-align: justify;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .about_rightpart_text_begin {
@@ -167,22 +164,24 @@ header {
 }
 
 .scinceproblem {
-    background-color: #5f58c4;
+    background-image: url(assets/icons/scienceproblem_back.svg);
+    background-color: #5F58C4;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding-top: 90px;
+    box-sizing: border-box;
 }
 
 .scinceproblem_title {
-    margin-top: 53px;
-    font-family: "Inter";
+    font-family: "Inter",sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 39px;
     text-align: center;
-
     color: #ffffff;
 }
 
@@ -192,7 +191,7 @@ header {
     margin-left: 11.5%;
     margin-right: 11.5%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 114px;
@@ -200,14 +199,11 @@ header {
 
 .scinceproblem_leftpart {
     width: 50%;
-
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    /* or 125% */
-
     text-align: justify;
     color: white;
     text-shadow: 0px 4px 4px rgba(84, 83, 83, 0.25);
@@ -224,18 +220,16 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 90px;
 }
 
 .edition_title {
-    margin-top: 53px;
-
-    font-family: "Inter";
+    font-family: "Inter",sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 39px;
     text-align: center;
-
     color: #090274;
 }
 
@@ -253,18 +247,23 @@ header {
 }
 
 .editor_img {
-    width: 200px;
-    height: 196px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
     background: #7a7a7a;
 }
 
 .editor {
     width: 70%;
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 34px;
+}
+.editor_blue{
+    color: #090274;
+    font-size: 28px;
 }
 
 .partners {
@@ -277,26 +276,21 @@ header {
 
 .partners_title {
     margin-top: 53px;
-
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 260px;
-
+    gap: 120px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 39px;
+    font-size: 36px;
     text-align: center;
-
     color: #ffffff;
 }
 
 .line1 {
-    width: 300px;
+    width: 400px;
     height: 0;
     padding: 0;
     border: none;
@@ -315,18 +309,15 @@ header {
     gap: 490px;
 }
 
-.patner_block {
+.partner_block {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px;
     gap: 28px;
 }
 
 .partner {
     display: block;
-    width: 77.5%;
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -337,17 +328,18 @@ header {
 
 .partner_img {
     width: 200px;
-    height: 196px;
+    height: 200px;
+    border-radius: 50%;
     background: #7a7a7a;
 }
 
 footer {
     border-top: 7px solid #ffffff;
-    background-size: cover;
+    padding: 10px 0;
+    background-color: #201c58;
 }
 
 .footer {
-    background-color: #201c58;
     height: 136px;
     width: 100%;
     display: flex;
@@ -355,16 +347,18 @@ footer {
 }
 
 .footer_links {
-    margin-top: 40px;
     width: 310px;
+    margin-top: 20px;
     font-weight: 400;
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 20px;
     color: #ffffff;
 }
 
 .footer_links_text {
     text-align: right;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 0;
 }
 .footer_links_text1 {
     margin-top: 5%;
