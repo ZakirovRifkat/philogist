@@ -26,7 +26,7 @@ header {
     width: 380px;
     margin: auto;
 }
-.head_text_link{
+.head_text_link {
     margin-top: 28px;
 }
 .logo_block {
@@ -36,14 +36,12 @@ header {
 }
 
 .head_feedback_link {
-
     display: flex;
     align-items: center;
     width: 310px;
 }
 
 .head_text {
-
     white-space: nowrap;
     font-size: 36px;
     text-align: center;
@@ -150,7 +148,7 @@ header {
 
 .about_rightpart {
     width: 50%;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-style: normal;
     font-weight: 400;
@@ -165,7 +163,7 @@ header {
 
 .scinceproblem {
     background-image: url(assets/icons/scienceproblem_back.svg);
-    background-color: #5F58C4;
+    background-color: #5f58c4;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -176,7 +174,7 @@ header {
 }
 
 .scinceproblem_title {
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -224,7 +222,7 @@ header {
 }
 
 .edition_title {
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -255,13 +253,13 @@ header {
 
 .editor {
     width: 70%;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 34px;
 }
-.editor_blue{
+.editor_blue {
     color: #090274;
     font-size: 28px;
 }
@@ -317,7 +315,7 @@ header {
 
 .partner {
     display: block;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -337,10 +335,11 @@ footer {
     border-top: 7px solid #ffffff;
     padding: 10px 0;
     background-color: #201c58;
+    box-sizing: border-box;
 }
 
 .footer {
-    height: 136px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -361,6 +360,6 @@ footer {
     margin: 0;
 }
 .footer_links_text1 {
-    margin-top: 5%;
+    margin-top: 10px;
     text-align: right;
 }
