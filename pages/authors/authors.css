@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-
 }
 
 a {
@@ -12,28 +11,27 @@ h1 {
     color: white;
 }
 
-
 header {
     width: 100%;
 }
 
 .head {
-    background-color: #3E37A6;
+    background-color: #3e37a6;
     height: 136px;
-    
+
     display: flex;
     justify-content: space-around;
 }
 
-.logo_block{
+.logo_block {
     display: flex;
     justify-content: center;
 }
 
-.head_feedback_link, .logo_block {
+.head_feedback_link,
+.logo_block {
     width: 310px;
 }
-
 
 .head_text {
     margin-top: 28px;
@@ -51,7 +49,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
     width: 233px;
     height: 58px;
     margin-top: 40px;
@@ -59,12 +57,12 @@ header {
     font-size: 36px;
     text-align: center;
 
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     border-radius: 20px;
 }
 
 .head_feedback span {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -73,11 +71,11 @@ header {
     align-items: center;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .head_menu {
-    background-color: #C4D6F1;
+    background-color: #c4d6f1;
     height: 68px;
 }
 
@@ -90,29 +88,27 @@ header {
 }
 
 .menu a {
-    color:black;
+    color: black;
     text-align: center;
     padding: 10px 35px;
     transition: all 0.2s;
-
 }
 
 .menu a:hover {
-    border-bottom: 1px solid black;   
+    border-bottom: 1px solid black;
 }
 
 .authors {
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .authors_title {
     margin-top: 53px;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -137,15 +133,13 @@ header {
 
 .authors_leftpart_img {
     width: 475px;
-    height: 442px;  
+    height: 442px;
 }
 
-
-
-.authors_rightpart{
+.authors_rightpart {
     width: 50%;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -161,7 +155,7 @@ header {
 }
 
 .authors_requirements {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -195,7 +189,6 @@ header {
     align-items: center;
     padding: 0px;
     gap: 10px;
-
 }
 
 .icon_img {
@@ -204,7 +197,7 @@ header {
 }
 
 .icon_text {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -214,16 +207,14 @@ header {
     text-align: center;
 
     color: #090274;
-
 }
 
 footer {
-    
-    border-top: 7px solid #FFFFFF;   
- }
+    border-top: 7px solid #ffffff;
+}
 
 .footer {
-    background-color: #201C58;
+    background-color: #201c58;
     height: 136px;
     width: 100%;
     display: flex;
@@ -236,7 +227,7 @@ footer {
     font-weight: 400;
     font-size: 8px;
     line-height: 8px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .footer_links_text {
