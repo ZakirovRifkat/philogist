@@ -1,0 +1,281 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+
+header {
+    width: 100%;
+}
+
+.head {
+    background-color: #3E37A6;
+    height: 136px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo_block{
+    display: flex;
+    justify-content: center;
+}
+
+.head_feedback_link, .logo_block {
+    width: 310px;
+}
+
+
+.head_text {
+    margin-top: 28px;
+    white-space: nowrap;
+    font-size: 36px;
+    text-align: center;
+}
+
+.head_text span {
+    display: block;
+}
+
+.head_feedback {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 233px;
+    height: 58px;
+    margin-top: 40px;
+    white-space: nowrap;
+    font-size: 36px;
+    text-align: center;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.head_feedback span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.head_menu {
+    background-color: #C4D6F1;
+    height: 68px;
+}
+
+.menu {
+    margin-top: 0px;
+    position: relative;
+    top: 24px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu a {
+    color:black;
+    text-align: center;
+    padding: 10px 35px;
+    transition: all 0.2s;
+
+}
+
+.menu a:hover {
+    border-bottom: 1px solid black;   
+}
+
+
+/*не ставится картинка фоном*/
+.banner {
+    
+    background-image: url(icons\banner.png);
+    height: 350px;
+
+    background-size: no-repeat;
+
+}
+
+.archive_title {
+    
+    margin-top: 109px;
+    margin-left: 7.7%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    /* identical to box height */
+
+
+    color: black;
+}
+
+.navigation {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation_menu {
+    width: 1190px;
+    height: 200px;
+
+    background: #C4D6F1;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 65px;
+    gap: 50px;
+}
+
+.raw {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+}
+
+.year {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 28px;
+    
+    width: 50px;
+    height: 20px;
+
+    background: #D9D9D9;
+}
+
+.year p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.yearj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 177px;
+
+    margin-top: 77px;
+    margin-bottom: 10%;
+    margin-left: 21.4%;
+    margin-right: 28%;
+}
+
+.year1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 65px;
+
+}
+
+.yearblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.cover_img {
+    width: 245px;
+    height: 245px;
+
+    background: #C4D6F1;
+}
+
+.date {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.name {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+footer {
+    
+    border-top: 7px solid #FFFFFF;   
+ }
+ 
+.footer {
+    background-color: #201C58;
+    height: 136px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_links {
+    margin-top: 40px;
+    width: 310px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+    color: #FFFFFF;
+}
+
+.footer_links_text {
+    text-align: right;
+}
+.footer_links_text1 {
+    margin-top: 5%;
+    text-align: right;
+}
