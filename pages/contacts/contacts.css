@@ -1,117 +1,3 @@
-body {
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-h1 {
-    color: white;
-}
-
-header {
-    width: 100%;
-}
-
-.head {
-    background-color: #3e37a6;
-    height: 136px;
-
-    display: flex;
-    justify-content: space-around;
-}
-.head_text__lines {
-    background-image: url(../../assets/icons/lines_under_logo_title.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 8px;
-    width: 380px;
-    margin: auto;
-}
-
-.logo_block {
-    display: flex;
-    justify-content: center;
-    width: 310px;
-}
-
-.head_feedback_link {
-    display: flex;
-    align-items: center;
-    width: 310px;
-}
-
-.head_text {
-    margin-top: 28px;
-    margin-bottom: 0;
-    white-space: nowrap;
-    font-size: 36px;
-    text-align: center;
-}
-
-.head_text span {
-    display: block;
-}
-
-.head_feedback {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 36px;
-    white-space: nowrap;
-    font-size: 36px;
-    text-align: center;
-    border: 3px solid #ffffff;
-    border-radius: 20px;
-}
-
-.head_feedback span {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-}
-
-.head_menu {
-    background-color: #c4d6f1;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu {
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    width: 40vw;
-    box-sizing: content-box;
-}
-
-.menu a {
-    color: black;
-    transition: all 0.2s;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu a:hover {
-    box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
-}
-
 .contacts {
     background-color: #d9d9d9;
     display: flex;
@@ -146,12 +32,8 @@ header {
 .contacts_leftpart {
     width: 454px;
     height: 609px;
-    left: 0px;
-    top: 0px;
-
     background: #201c58;
     border-radius: 80px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,7 +118,7 @@ header {
 }
 
 .twosegment input {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -244,16 +126,13 @@ header {
     color: rgba(255, 255, 255, 0.5);
     border: none;
     padding: 8px 0;
-    background-color:#201c58;
+    background-color: #201c58;
     border-bottom: 1px solid #ffffff;
 }
-.twosegment input:focus{
+
+.twosegment input:focus {
     outline: none;
-} 
-/* .line1 {
-    width: 218px;
-    border: 0.5px solid #ffffff;
-} */
+}
 
 .onesegment input {
     font-family: "Montserrat";
@@ -263,12 +142,13 @@ header {
     line-height: 20px;
     border: none;
     padding: 8px 0;
-    background-color:#201c58;
+    background-color: #201c58;
     color: rgba(255, 255, 255, 0.5);
     width: 700px;
     border-bottom: 1px solid #ffffff;
 }
-.onesegment input:focus{
+
+.onesegment input:focus {
     outline: none;
 }
 
@@ -281,7 +161,7 @@ header {
     gap: 10px;
     background: #ffffff;
     border-radius: 80px;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -289,33 +169,4 @@ header {
     text-align: center;
     color: #090274;
     cursor: pointer;
-}
-
-footer {
-    border-top: 7px solid #ffffff;
-}
-
-.footer {
-    background-color: #201c58;
-    height: 136px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer_links {
-    margin-top: 40px;
-    width: 310px;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 8px;
-    color: #ffffff;
-}
-
-.footer_links_text {
-    text-align: right;
-}
-.footer_links_text1 {
-    margin-top: 5%;
-    text-align: right;
 }
