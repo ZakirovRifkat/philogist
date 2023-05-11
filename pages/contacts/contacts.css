@@ -169,4 +169,11 @@
     text-align: center;
     color: #090274;
     cursor: pointer;
+    border:none;
+    transition: all 0.2s;
+}
+.sendbutton:hover{
+    background-color: #15428659;
+    color:white;
+    transition: all 0.2s;
 }
