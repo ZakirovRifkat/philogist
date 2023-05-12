@@ -401,16 +401,13 @@ footer {
     .scinceproblem_leftpart {
         font-size: 16px;
         font-weight: 500;
+        width: 90%;
     }
     .about_title,
     .scinceproblem_title,
     .edition_title,
     .partners_title {
         font-size: 32px;
-    }
-    .about_rightpart,
-    .scinceproblem_leftpart {
-        width: 90%;
     }
     .partners_main {
         gap: 250px;
@@ -430,7 +427,7 @@ footer {
     }
     .scinceproblem_main{
         flex-direction: column-reverse;
-        row-gap: 40px;
+        row-gap: 60px;
     }
     .about_leftpart, .scinceproblem_rightpart{
         display: flex;

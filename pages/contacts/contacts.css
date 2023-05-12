@@ -4,29 +4,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 90px 50px 170px 50px;
 }
 
 .contacts_title {
-    margin-top: 53px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 39px;
-    text-align: center;
+    line-height: 38px;
     color: #090274;
 }
 
 .contacts_main {
-    margin-top: 53px;
-    margin-bottom: 7%;
-    margin-left: 11.5%;
-    margin-right: 11.5%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 91px;
+    gap: 90px;
+    margin-top: 50px;
 }
 
 .contacts_leftpart {
