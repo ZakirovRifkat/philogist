@@ -17,6 +17,8 @@ header {
     height: 136px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 40px;
 }
 
 .head_text__lines {
@@ -28,14 +30,12 @@ header {
     margin: auto;
 }
 
-.head_text_link {
-    margin-top: 28px;
-}
 
 .logo_block {
     display: flex;
     justify-content: center;
     width: 310px;
+    height: 136px;
 }
 
 .head_feedback_link {
@@ -68,6 +68,7 @@ header {
     border-radius: 20px;
     color: #ffffff;
     transition: color 0.2s;
+    margin: 0;
 }
 
 .head_feedback span {
@@ -100,7 +101,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    width: 40vw;
+    width: 45vw;
 }
 
 .menu a {
@@ -127,10 +128,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 90px 50px 170px 50px;
+    box-sizing: border-box;
 }
 
 .about_title {
-    margin-top: 85px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -140,20 +142,15 @@ header {
 }
 
 .about_main {
-    margin-top: 53px;
-    margin-bottom: 7%;
-    margin-left: 11.5%;
-    margin-right: 11.5%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
+    justify-content: space-evenly;
     gap: 114px;
+    margin-top: 50px;
 }
 
 .about_leftpart_img {
-    width: 475px;
-    height: 442px;
+    width: 100%;
     background-color: #b3b3b3;
 }
 
@@ -181,7 +178,9 @@ header {
     flex-direction: column;
     align-items: center;
     padding-top: 90px;
+    padding-bottom: 170px;
     box-sizing: border-box;
+    padding: 90px 50px 170px 50px;
 }
 
 .scinceproblem_title {
@@ -195,14 +194,10 @@ header {
 }
 
 .scinceproblem_main {
-    margin-top: 53px;
-    margin-bottom: 7%;
-    margin-left: 11.5%;
-    margin-right: 11.5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0px;
+    margin-top: 50px;
     gap: 114px;
 }
 
@@ -219,8 +214,7 @@ header {
 }
 
 .scinceproblem_rightpart_img {
-    width: 475px;
-    height: 442px;
+    width: 100%;
     background-color: #56565a;
 }
 
@@ -230,7 +224,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 90px;
+    padding: 90px 50px 170px 50px;
 }
 
 .edition_title {
@@ -244,16 +238,14 @@ header {
 }
 
 .editor_block {
-    margin-top: 53px;
-    margin-bottom: 3%;
-    margin-left: 15%;
-    margin-right: 15%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 114px;
+    gap: 75px;
+    margin-top: 90px;
+}
+.editor_block:nth-child(odd) {
+    justify-content: end;
+    text-align: end;
 }
 
 .editor_img {
@@ -264,7 +256,7 @@ header {
 }
 
 .editor {
-    width: 70%;
+    width: 60%;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -283,16 +275,15 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 90px 50px 130px 50px;
 }
 
 .partners_title {
-    margin-top: 53px;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
     gap: 120px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -301,23 +292,17 @@ header {
 }
 
 .line1 {
-    width: 400px;
-    height: 0;
-    padding: 0;
+    width: 25vw;
     border: none;
     border-top: 3px solid #ffffff;
 }
 
 .partners_main {
-    margin-top: 100px;
-    margin-bottom: 7%;
-    margin-left: 26%;
-    margin-right: 26%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
+    justify-content: center;
     gap: 490px;
+    margin-top: 90px;
 }
 
 .partner_block {
@@ -346,23 +331,24 @@ header {
 
 footer {
     border-top: 7px solid #ffffff;
-    padding: 10px 0;
+    padding: 10px 20px;
     background-color: #201c58;
     box-sizing: border-box;
 }
 
 .footer {
-    height: 150px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
 .footer_links {
     width: 310px;
-    margin-top: 20px;
     font-weight: 400;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer_links_text {
@@ -385,4 +371,97 @@ footer {
 .footer_links_text1 a {
     color: white;
 }
+.footer_logo_block{
+    display: flex;
+    justify-content: center;
+    width: 310px;
+    height: 136px;
+}
+.footer_text_link{
 
+}
+
+@media screen and (max-width: 1200px) {
+    .head_feedback_link,
+    .logo_block {
+        display: none;
+    }
+
+    .head {
+        justify-content: center;
+    }
+    .logo_block {
+        width: auto;
+    }
+    .about_main,
+    .scinceproblem_main {
+        gap: 5%;
+    }
+    .about_rightpart,
+    .scinceproblem_leftpart {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .about_title,
+    .scinceproblem_title,
+    .edition_title,
+    .partners_title {
+        font-size: 32px;
+    }
+    .about_rightpart,
+    .scinceproblem_leftpart {
+        width: 90%;
+    }
+    .partners_main {
+        gap: 250px;
+    }
+    .footer_text_link{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 375px) and (max-width: 960px) {
+    .about, .scinceproblem, .partners{
+        padding: 50px 90px 100px 90px;
+    }
+    .about_main{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .scinceproblem_main{
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+    .about_leftpart, .scinceproblem_rightpart{
+        display: flex;
+        justify-content: center;
+    }
+    .about_leftpart_img,.scinceproblem_rightpart_img{
+        width: 70%;
+    }
+    .scinceproblem{
+        background-position: 50% 0%;
+    }
+    .editor_block{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+    .editor_block:nth-child(odd){
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .partners_main{
+        flex-direction: column;
+        gap: 70px;
+    }
+    .line1{
+        width: 18vw;
+    }
+    .partners_title{
+        gap: 50px;
+    }
+    .footer_links_text, .footer_links_text1{
+        font-size: 14px;
+    }
+}
