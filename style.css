@@ -417,9 +417,12 @@ footer {
     }
 
 }
-@media screen and (min-width: 375px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
     .about, .scinceproblem, .partners{
         padding: 50px 90px 100px 90px;
+    }
+    .about{
+        background-position: 46% 0;
     }
     .about_main{
         flex-direction: column;

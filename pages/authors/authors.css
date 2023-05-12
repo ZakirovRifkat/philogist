@@ -108,7 +108,7 @@
     
 }
 
-@media screen and (min-width: 375px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
    .authors{
     padding: 50px 90px 100px 90px;
    }
