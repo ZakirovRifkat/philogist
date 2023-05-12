@@ -11,6 +11,7 @@
 .authors_title {
     font-family: "Inter",sans-serif;
     font-style: normal;
+    text-align: center;
     font-weight: 400;
     font-size: 36px;
     line-height: 38px;
@@ -112,6 +113,9 @@
    .authors{
     padding: 50px 90px 100px 90px;
    }
+   .authors_title{
+    font-size: 28px;
+}
    .authors_main{
     flex-direction: column;
     row-gap: 60px;
