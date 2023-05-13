@@ -18,6 +18,7 @@
         />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="fonts.css" />
+        <link rel="stylesheet" href="burger.css" />
     </head>
     <body>
         <header class="headerall">
@@ -45,6 +46,39 @@
                         <span>Обратная связь</span>
                     </figure>
                 </a>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span class="span-before"></span>
+                        <span class="span-mid"></span>
+                        <span class="span-after"></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#">Главная</a></li>
+                        <li>
+                            <a
+                                class="menu__item"
+                                href="pages/authors/authors.html"
+                                >Для авторов</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="menu__item"
+                                href="pages/contacts/contacts.html"
+                                >Контакты</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="menu__item"
+                                href="pages/archive/archive.html"
+                                >Архив</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="head_menu">
@@ -179,7 +213,7 @@
 
         <section class="partners">
             <div class="partners_title">
-                <div class="line1" ></div>
+                <div class="line1"></div>
                 <div>ПАРТНЕРЫ</div>
                 <hr class="line1" />
             </div>

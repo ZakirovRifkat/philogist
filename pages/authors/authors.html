@@ -18,7 +18,7 @@
         />
         <link rel="stylesheet" href="../../style.css" />
         <link rel="stylesheet" href="authors.css" />
-        <link rel="stylesheet" href="../../fonts.css" />
+        <link rel="stylesheet" href="../../burger.css" />
     </head>
     <body>
         <header class="headerall">
@@ -43,6 +43,37 @@
                         <span>Обратная связь</span>
                     </figure>
                 </a>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span class="span-before"></span>
+                        <span class="span-mid"></span>
+                        <span class="span-after"></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li>
+                            <a class="menu__item" href="../../index.html"
+                                >Главная</a
+                            >
+                        </li>
+                        <li>
+                            <a class="menu__item" href="#">Для авторов</a>
+                        </li>
+                        <li>
+                            <a
+                                class="menu__item"
+                                href="../contacts/contacts.html"
+                                >Контакты</a
+                            >
+                        </li>
+                        <li>
+                            <a class="menu__item" href="../archive/archive.html"
+                                >Архив</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="head_menu">
@@ -101,7 +132,10 @@
                         <br />
                         <span
                             >Материалы направляются в электронном виде по адресу
-                            журнала: <a href="mailto:somebody@gmail.com">somebody@gmail.com</a></span
+                            журнала:
+                            <a href="mailto:somebody@gmail.com"
+                                >somebody@gmail.com</a
+                            ></span
                         >
                     </div>
                 </div>
@@ -109,8 +143,8 @@
 
             <div class="authors_requirements">
                 <span
-                    >Для публикации Вашей статьи в журнале необходимо
-                    следовать ряду правил, а также</span
+                    >Для публикации Вашей статьи в журнале необходимо следовать
+                    ряду правил, а также</span
                 >
                 <span>
                     оформить Вашу работу в соответствии с предъявляемыми
