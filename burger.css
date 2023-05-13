@@ -52,24 +52,24 @@
 .span-after {
     top: 100%;
 }
-#close{
-  margin-bottom: 60px;
-  opacity: 0;
-  transition: 0.2s;
+#close {
+    margin-bottom: 60px;
+    opacity: 0;
+    transition: 0.2s;
 }
-.close-btn span{
-  background-color: #333;
+.close-btn span {
+    background-color: #333;
 }
-.close-btn .span-before{
-  top: 50%;
-  transform: rotate(45deg);
+.close-btn .span-before {
+    top: 50%;
+    transform: rotate(45deg);
 }
-.close-btn .span-mid{
-  transform: rotate(45deg);
+.close-btn .span-mid {
+    transform: rotate(45deg);
 }
-.close-btn .span-after{
-  top: 50%;
-  transform: rotate(-45deg);
+.close-btn .span-after {
+    top: 50%;
+    transform: rotate(-45deg);
 }
 .menu__box {
     display: flex;
@@ -106,7 +106,7 @@
     background-color: #cfd8dc;
 }
 .menu__box li {
-  width: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
