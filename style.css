@@ -14,7 +14,6 @@ header {
 }
 
 .head {
-    height: 136px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -380,15 +379,22 @@ footer {
 .hamburger-menu {
     display: none;
 }
-
+.year_img_hor {
+    display: none;
+}
 @media screen and (max-width: 1200px) {
-    .head_feedback_link,
-    .logo_block {
+    .head_feedback_link {
         display: none;
     }
 
     .head {
-        justify-content: center;
+        justify-content: space-around;
+    }
+    .head_text {
+        text-align: end;
+    }
+    .head_text__lines {
+        display: none;
     }
     .logo_block {
         width: auto;
@@ -414,6 +420,13 @@ footer {
     }
     .footer_text_link {
         display: none;
+    }
+    .footer_logo_block {
+        width: 130px;
+    }
+    .footer {
+        justify-content: space-between;
+        box-sizing: border-box;
     }
 }
 @media screen and (max-width: 960px) {
@@ -489,11 +502,12 @@ footer {
         justify-content: center;
     }
     .head {
-        width: 90vw;
+        width: 100%;
         justify-content: space-between;
     }
     .head_text {
         font-size: 3.2vw;
+        text-align: center;
     }
 
     .logo_block {
@@ -501,15 +515,17 @@ footer {
         align-items: center;
     }
     .logo_block img {
-        width: 14vw;
-        height: 14vw;
+        width: 130px;
+        height: 130px;
     }
 
     .hamburger-menu {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
-        width: 120px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        width: 130px;
     }
     .editor_blue {
         font-size: 24px;
@@ -519,10 +535,6 @@ footer {
     }
 }
 @media screen and (max-width: 750px) {
-    .logo_block img {
-        width: 100px;
-        height: 100px;
-    }
     .editor_img {
         min-width: 150px;
         min-height: 150px;
@@ -545,23 +557,45 @@ footer {
         min-width: 35px;
         height: 2px;
     }
-}
-@media screen and (max-width: 670px) {
+    #menu__toggle:checked ~ .menu__btn .span-mid {
+        min-width: 32px;
+    }
+    #menu__toggle:checked ~ .menu__btn .span-before {
+        min-width: 32px;
+    }
+    #menu__toggle:checked ~ .menu__btn .span-after {
+        min-width: 32px;
+    }
     .head_text span:first-child {
         display: none;
     }
+}
+@media screen and (max-width: 670px) {
     .editor_block {
         gap: 30px;
+    }
+    .head {
+        height: 90px;
+        padding: 0 0 0 32px;
+        box-sizing: border-box;
+    }
+    .logo_block img {
+        width: 90px;
+        height: 90px;
     }
 }
 @media screen and (max-width: 570px) {
     .head_text_link {
         display: none;
     }
-    .logo_block {
-        margin-left: 35px;
-    }
+
     .line1 {
         display: none;
+    }
+    .about,
+    .scinceproblem,
+    .partners {
+        padding: 50px 40px 100px 40px;
+        box-sizing: border-box;
     }
 }

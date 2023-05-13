@@ -150,3 +150,8 @@
         justify-content: center;
     }
 }
+@media screen and (max-width: 570px) {
+    .authors {
+        padding: 50px 40px 100px 40px;
+    }
+}
