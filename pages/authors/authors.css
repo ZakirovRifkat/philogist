@@ -9,7 +9,7 @@
 }
 
 .authors_title {
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     text-align: center;
     font-weight: 400;
@@ -33,7 +33,7 @@
 
 .authors_rightpart {
     width: 50%;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -47,7 +47,7 @@
 }
 
 .authors_requirements {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -55,7 +55,7 @@
     text-align: center;
     color: #090274;
 }
-.authors_requirements{
+.authors_requirements {
     margin-top: 100px;
 }
 .authors_requirements span {
@@ -85,7 +85,7 @@
 }
 
 .icon_text {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -95,60 +95,58 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .authors_main{
+    .authors_main {
         gap: 5%;
     }
-    .authors_rightpart{
+    .authors_rightpart {
         font-size: 16px;
         font-weight: 500;
         width: 90%;
     }
-    .authors_title{
+    .authors_title {
         font-size: 32px;
     }
-    
 }
 
 @media screen and (max-width: 960px) {
-   .authors{
-    padding: 50px 90px 100px 90px;
-   }
-   .authors_title{
-    font-size: 28px;
-}
-   .authors_main{
-    flex-direction: column;
-    row-gap: 60px;
-   }
-   .authors_leftpart{
-    display: flex;
-    justify-content: center;
-   }
-   .authors_leftpart_img{
-    width: 70%;
-   }
-   .authors_icons{
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    row-gap: 60px;
-    margin-top: 60px;
-    padding: 0 90px;
-   }
-   .icon_block{
-    width: 230px;
-   }
-}
-@media screen and (max-width:815px) {
-    .authors_icons{
+    .authors {
+        padding: 50px 90px 100px 90px;
+    }
+    .authors_title {
+        font-size: 28px;
+    }
+    .authors_main {
+        flex-direction: column;
         row-gap: 60px;
     }
-    .icon_block{
+    .authors_leftpart {
+        display: flex;
+        justify-content: center;
+    }
+    .authors_leftpart_img {
+        width: 70%;
+    }
+    .authors_icons {
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        row-gap: 60px;
+        margin-top: 60px;
+        padding: 0 90px;
+    }
+    .icon_block {
+        width: 230px;
+    }
+}
+@media screen and (max-width: 815px) {
+    .authors_icons {
+        row-gap: 60px;
+    }
+    .icon_block {
         width: 160px;
     }
 }
-@media screen and (max-width:636px) {
-    .authors_icons{
+@media screen and (max-width: 636px) {
+    .authors_icons {
         justify-content: center;
     }
 }
-

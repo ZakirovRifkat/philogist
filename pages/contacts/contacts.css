@@ -240,7 +240,7 @@
         justify-content: space-between;
         height: 22%;
     }
-    .onesegment{
+    .onesegment {
         width: auto;
     }
     .twosegment,
@@ -260,5 +260,4 @@
     }
 }
 @media screen and (max-width: 430px) {
-
 }
