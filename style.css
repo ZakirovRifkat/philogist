@@ -469,14 +469,7 @@ footer {
     .partner {
         font-size: 24px;
     }
-    .partner_img {
-        width: 150px;
-        height: 150px;
-    }
-    .editor_img {
-        min-width: 150px;
-        min-height: 150px;
-    }
+
     .line1 {
         width: 18vw;
     }
@@ -530,6 +523,14 @@ footer {
         width: 100px;
         height: 100px;
     }
+    .editor_img {
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .partner_img {
+        width: 150px;
+        height: 150px;
+    }
     .head_text {
         font-size: 24px;
     }
@@ -549,8 +550,11 @@ footer {
     .head_text span:first-child {
         display: none;
     }
+    .editor_block {
+        gap: 30px;
+    }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 570px) {
     .head_text_link {
         display: none;
     }
