@@ -3,10 +3,10 @@ var isScrollEnabled = true;
 
 menuBtn.addEventListener("click", function () {
     if (isScrollEnabled) {
-        document.body.style.overflow = "hidden";
+        menuBtn.style.position = "fixed";
         isScrollEnabled = false;
     } else {
-        document.body.style.overflow = "";
+        menuBtn.style.position = "relative";
         isScrollEnabled = true;
     }
 });
