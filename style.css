@@ -341,6 +341,9 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
+.footer_text_link span {
+    text-align: end;
+}
 
 .footer_links {
     width: 310px;
@@ -418,9 +421,7 @@ footer {
     .partners_main {
         gap: 250px;
     }
-    .footer_text_link {
-        display: none;
-    }
+
     .footer_logo_block {
         width: 130px;
     }
@@ -580,6 +581,13 @@ footer {
         box-sizing: border-box;
     }
     .logo_block img {
+        width: 90px;
+        height: 90px;
+    }
+    .footer_logo_block {
+        height: auto;
+    }
+    .footer_logo_block img {
         width: 90px;
         height: 90px;
     }
